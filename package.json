@@ -1,7 +1,7 @@
 {
     "name": "cmelo-puking-unicorn",
-    "displayName": "puking-unicorn",
-    "description": "rainbow color theme",
+    "displayName": "Puking Unicorn",
+    "description": "rainbow color theme puking unicorn",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.48.0"
