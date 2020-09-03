@@ -1,0 +1,214 @@
+{
+
+
+	// @bg1: #2c323d;
+	// @bg2: #373c47;
+
+	// @blue: #1f88d9;
+	// @blueSoft: #79b8e8;
+
+	// @green: #00cb7c;
+	// @greenSoft: #66e0b0;
+
+	// @orange: #ffc929;
+	// @orangeSoft: #ffdf7f;
+
+	// @red: #f36781;
+	// @redSoft: #f8a4b3;
+
+	// @violet: #9065ff;
+	// @violetSoft: #bca3ff;
+
+	// @gray: #636770;
+	// @graySoft: #a6a9ad;
+	// @white: #d3d4d6;
+	// @whiteSoft: #fff;
+
+
+	"name": "puking unicorn",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#2c323d",
+		"editor.foreground": "#d3d4d6",
+		"editor.lineHighlightBackground": "#373c47",
+		"editor.selectionBackground": "#373c47",
+		"editor.hoverHighlightBackground": "#373c47",
+
+		"editorOverviewRuler.border": "#0000",
+		"editorRuler.foreground": "#fff1",
+		"editorWhitespace.foreground": "#fff1",
+		"editorLineNumber.foreground": "#fff2",
+
+		"tab.inactiveBackground": "#252a35",
+		"tab.inactiveForeground": "#a6a9ad",
+		"tab.activeModifiedBorder": "#ffc929",
+		"editorGroupHeader.tabsBackground": "#252a35",
+
+		"activityBar.background": "#1f2430",
+		"sideBar.background": "#252a35",
+		"editorCursor.background": "#ff0000",
+
+		"scrollbar.shadow": "#0000",
+		"scrollbarSlider.background": "#0003",
+		"scrollbarSlider.hoverBackground": "#0005",
+		"scrollbarSlider.activeBackground": "#0005",
+
+		"editorBracketMatch.background": "#fff2",
+		"editorBracketMatch.border": "#0000",
+
+		"notifications.background": "#1f2430",
+		"notificationToast.border": "#0000",
+		"notificationsErrorIcon.foreground": "#f36781",
+		"notificationsWarningIcon.foreground": "#ffc929",
+		"notificationsInfoIcon.foreground": "#1f88d9",
+		"notebookStatusRunningIcon.foreground": "#9065ff",
+		"notificationLink.foreground": "#ffc929",
+
+		"list.hoverBackground": "#0002",
+		"list.activeSelectionBackground": "#0004",
+		"list.inactiveSelectionBackground": "#0002",
+		"list.focusBackground": "#1f2430",
+		"widget.shadow": "#0000",
+
+	},
+	"tokenColors": [
+		{
+			"name": "Orange",
+			"scope": [
+				"constant",
+				"variable.parameter",
+				"meta.object.member variable.other.constant",
+				"entity.other.ng-binding-name.property entity",
+				"entity.other.attribute-name",
+				"entity.other.attribute-name entity",
+			],
+			"settings": {
+				"foreground": "#ffc929"
+			}
+		},
+		{
+			"name": "Orange Soft",
+			"scope": [
+				"keyword.other.unit",
+				"support.constant",
+			],
+			"settings": {
+				"foreground": "#ffdf7f"
+			}
+		},
+		{
+			"name": "Blue",
+			"scope": [
+				"entity.name.function",
+				"entity.name.tag",
+				"meta.tag punctuation.definition.tag",
+			],
+			"settings": {
+				"foreground": "#1f88d9"
+			}
+		},
+		{
+			"name": "Blue Soft",
+			"scope": [
+				"support",
+				"meta.decorator varaible",
+				"meta.decorator entity.name.function",
+				"entity.other.attribute-name.class",
+				"meta.tag entity.name.function",
+			],
+			"settings": {
+				"foreground": "#79b8e8"
+			}
+		},
+		{
+			"name": "Red",
+			"scope": [
+				"keyword",
+				"source.css variable",
+				"entity.other.ng-binding-name.template",
+				"entity.other.ng-binding-name.template entity",
+				"entity.name.function.pipe"
+			],
+			"settings": {
+				"foreground": "#f36781"
+			}
+		},
+		{
+			"name": "Red Soft",
+			"scope": [
+				"constant.language",
+				"storage.type.property",
+				"variable.language",
+				"text.html variable",
+				"text.html variable.other.object",
+			],
+			"settings": {
+				"foreground": "#f8a4b3"
+			}
+		},
+
+		{
+			"name": "Violet",
+			"scope": [
+				"entity",
+				"meta.import variable",
+				"entity.other.attribute-name.pseudo-class",
+				"meta.tag.custom entity.name.tag",
+				"meta.tag.custom punctuation.definition.tag",
+			],
+			"settings": {
+				"foreground": "#9065ff"
+			}
+		},
+		{
+			"name": "Violet Soft",
+			"scope": [
+				"storage",
+				"support.type",
+				"constant.language.null",
+			],
+			"settings": {
+				"foreground": "#bca3ff"
+			}
+		},
+		{
+			"name": "Green",
+			"scope": [
+				"string",
+				"support.type.property-name",
+			],
+			"settings": {
+				"foreground": "#00cb7c"
+			}
+		},
+		{
+			"name": "Green Soft",
+			"scope": [
+				"meta.type.annotation variable.object.property",
+				"meta.object-literal.key",
+				"meta.structure.dictionary support.type.property-name",
+			],
+			"settings": {
+				"foreground": "#66e0b0"
+			}
+		},
+		{
+			"name": "Gray",
+			"scope": [
+				"comment",
+			],
+			"settings": {
+				"foreground": "#636770"
+			}
+		},
+		{
+			"name": "Gray Soft",
+			"scope": [
+				"variable.other.object",
+			],
+			"settings": {
+				"foreground": "#a6a9ad"
+			}
+		},
+	]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "cmelo-puking-unicorn",
+    "displayName": "puking-unicorn",
+    "description": "rainbow color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Puking Unicorn",
+                "uiTheme": "vs-dark",
+                "path": "./themes/puking unicorn-color-theme.json"
+            }
+        ]
+    }
+}
