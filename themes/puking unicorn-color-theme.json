@@ -60,7 +60,6 @@
 		"editorWhitespace.foreground": "#63677044",
 		"editorLineNumber.foreground": "#63677088",
 		"editorLineNumber.activeForeground": "#636770",
-		"editorGutter.background": "#2c323d",
 
 		"peekViewTitle.background": "#2c323d",
 		"peekView.border": "#373c47",
@@ -130,6 +129,48 @@
 		"scrollbarSlider.background": "#63677033",
 		"scrollbarSlider.hoverBackground": "#63677066",
 		"scrollbarSlider.activeBackground": "#63677066",
+
+		"debugIcon.breakpointForeground": "#f36781",
+
+		"gitDecoration.addedResourceForeground": "#66e0b0",
+		"gitDecoration.modifiedResourceForeground": "#ffdf7f",
+		"gitDecoration.deletedResourceForeground": "#f8a4b3",
+		"gitDecoration.untrackedResourceForeground": "#79b8e8",
+		"gitDecoration.ignoredResourceForeground": "#636770",
+		"gitDecoration.conflictingResourceForeground": "#f36781",
+		"gitDecoration.submoduleResourceForeground": "#9065ff",
+
+		"editorGutter.background": "#2c323d",
+		"editorGutter.modifiedBackground": "#ffc929",
+		"editorGutter.addedBackground": "#00cb7c",
+		"editorGutter.deletedBackground": "#f36781",
+		"editorGutter.commentRangeForeground": "#636770",
+		"editorGutter.foldingControlForeground": "#9065ff",
+
+		"editorOverviewRuler.background": "#2c323d",
+		"editorOverviewRuler.addedForeground": "#00cb7c44",
+		"editorOverviewRuler.modifiedForeground": "#ffc92944",
+		"editorOverviewRuler.deletedForeground": "#f3678144",
+		"editorOverviewRuler.errorForeground": "#f00",
+		"editorOverviewRuler.wordHighlightForeground": "#636770",
+
+		"diffEditor.insertedTextBackground": "#00cb7c22",
+		"diffEditor.removedTextBackground": "#f3678122",
+		"diffEditor.border": "#636770",
+		"diffEditor.diagonalFill": "#636770",
+
+		"minimap.findMatchHighlight": "#636770",
+		"minimap.selectionHighlight": "#636770",
+		"minimap.errorHighlight": "#f36781",
+		"minimap.warningHighlight": "#ffc929",
+		"minimap.background": "#2c323d",
+		"minimapSlider.background": "#63677033",
+		"minimapSlider.hoverBackground": "#63677066",
+		"minimapSlider.activeBackground": "#63677066",
+		"minimapGutter.addedBackground": "#00cb7c",
+		"minimapGutter.modifiedBackground": "#ffc929",
+		"minimapGutter.deletedBackground": "#f36781",
+
 
 	},
 	"tokenColors": [
