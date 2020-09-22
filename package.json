@@ -3,7 +3,7 @@
     "publisher": "mcelin",
     "displayName": "Puking Unicorn",
     "description": "rainbow color theme puking unicorn",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "repository": "github:cmelo/puking-unicorn",
     "engines": {
         "vscode": "^1.48.0"
