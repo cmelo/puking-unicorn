@@ -4,6 +4,7 @@
     "displayName": "Puking Unicorn",
     "description": "rainbow color theme puking unicorn",
     "version": "0.1.0",
+    "repository": "github:cmelo/puking-unicorn",
     "engines": {
         "vscode": "^1.48.0"
     },
